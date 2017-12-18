@@ -17,3 +17,7 @@ Phone.prototype.whoIsOwner = function() {
 var iPhone6S = new Phone("Apple", 2250, "silver", "lte", "Bartek");
 var galaxyS6 = new Phone("Samsung", 1250, "black", "3G", "Aga");
 var onePlus = new Phone("One", 920, "white", "none", "Tomek");
+
+iPhone6S.printInfo();
+galaxys6.printInfo();
+onePlus.printInfo();
